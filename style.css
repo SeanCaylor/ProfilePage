@@ -54,11 +54,15 @@ p {
 .column{
     flex: 1;
     margin-top: 75px;
-    padding: 15px 15% 0px;
+    padding: 15px 10% 0px;
     align-items: center; 
     min-height: 200px;
     margin-left: 0px;
     margin-right: 0px;
+}
+
+.conName {
+    flex 32;
 }
 
 .headline {
@@ -73,6 +77,12 @@ p {
 
 .img {
     width: 15px;
+}
+
+.link {
+    display: flex;
+    justify-content: center;
+    border-top: solid #afafadce;
 }
 
 .navBar {
@@ -117,6 +127,17 @@ p {
     justify-content: center;
 }
 
+.number2 {
+    background-color: #E1E2DE;
+    color: #5A5A59;
+    border-radius: 50%;
+    width: 35px;
+    height: 20px;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+}
+
 .rightCol {
     width: 300px;
 }
@@ -156,6 +177,14 @@ p {
     width: 200px;
 }
 
+#connectionInfoPane {
+    text-emphasis: bold;
+    font-size: 1.25rem;
+    justify-content: center;
+    align-items: center;
+
+}
+
 #connectionReqInfoPane {
     padding: 5px;
     padding-left: 15px;
@@ -180,6 +209,10 @@ p {
 #editProfile {
     color: #2B78E4;
     font-family: 'EB Garamond', serif;
+}
+
+#friendImage {
+    width: 40px;
 }
 
 #gearIcon {
@@ -223,4 +256,14 @@ p {
 
 #reqImage {
     width: 20px;
+}
+
+#viewCon {
+    color: #1e4e91;
+    font-family: 'EB Garamond', serif;
+    text-align: center;
+}
+
+#viewCon:hover {
+    text-decoration: underline;
 }
