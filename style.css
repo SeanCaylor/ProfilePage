@@ -1,0 +1,178 @@
+* {
+    margin: 0px;
+    padding:0px;
+    font-family: 'EB Garamond', serif;
+}
+
+a {
+    text-decoration: none;
+    color: #A2A2A2;
+    flex: 1;
+    font-family: 'Roboto', sans-serif; 
+}
+
+a:hover{
+    color: #FFFFFF;
+}
+
+body {
+    background-color: #888887;
+}
+
+p {
+    display: inline;
+}
+
+.belts {
+    font-weight: lighter;
+}
+
+.btn {
+    flex: 1;
+    margin-right: 15px;
+    background-color: #198294;
+    border: solid black;
+    color: white;
+    box-shadow: 4px 4px black;
+    padding: 5px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.btn:hover {
+    background-color: #115E6B;
+}
+
+.card {
+    background-color: #E1E2DE; /*this is of course Patrick Batesman's business card color. *//*"That's bone. And the lettering is something called 'Silian Grail'."*/
+    border: solid #afafadce;
+    align-items: center;
+    vertical-align: center;
+    width: 400px;  
+    margin-bottom: 5px;
+}
+
+.column{
+    flex: 1;
+    margin-top: 75px;
+    padding: 15px 15% 0px;
+    align-items: center; 
+    min-height: 200px;
+    margin-left: 0px;
+    margin-right: 0px;
+}
+
+.headline {
+    background-color: #5A5A59;
+    color: #E1E2DE;
+    padding: 2px 25px;
+}
+
+.img {
+    width: 15px;
+}
+
+.navBar {
+    background-color: #2B2B2B;
+    color: #A2A2A2;
+    display: flex;
+    font-weight: bold;
+    padding: 20px 15px;
+    align-items: center;
+    width: 100%;
+    justify-content: space-between;
+    position: fixed;
+    top: 0;
+    right: 0;
+}
+
+.navLinks {
+    display: flex;
+    list-style-type: none;
+    justify-content: space-around;
+    align-items: center;
+    width: 0%;
+    flex: 1;
+}
+
+.navTitle {
+    font-weight: bolder;
+    color: #FFFFFF;
+    flex: 1;
+    margin-left: 50px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.rightCol {
+    width: 300px;
+}
+
+.school {
+    margin-bottom: 2px;
+    font-weight: bold;
+}
+
+.title {
+    background-color: #5A5A59;
+    height: 80px;
+}
+
+.years {
+    color: #646464;
+    margin-bottom: 2px;
+}
+
+#col2 {
+    padding-right: 20px;
+    padding-left: 15px;
+}
+
+#connectionRequestCard, #connectionCard {
+    width: 200px;
+}
+
+#eduInfoPane {
+    padding: 10px 0px 15px 25px;
+    width: 375px;
+}
+
+#editProfile {
+    color: #2B78E4;
+    font-family: 'EB Garamond', serif;
+}
+
+#gearIcon {
+    width: 8px;
+}
+
+#infoPane {
+    padding: 15px;
+    padding-left: 25px;
+}
+
+#location {
+    font-size: 1.25rem;
+    font-weight: bold;
+}
+
+#locIcon {
+    width: 10px;
+}
+
+#mainContainer {
+    width: 70%;
+    display: flex;
+    padding: 35px 200px 35px 150px;
+}
+
+#name{
+    margin-top: 20px;
+}
+
+#profilePic {
+    width: 85px;
+    position: relative;
+    top: 30px;
+    left: 40px;
+    border: solid 2px black;
+    border-radius: 50%;
+}
