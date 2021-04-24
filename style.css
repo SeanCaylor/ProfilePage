@@ -65,6 +65,10 @@ p {
     background-color: #5A5A59;
     color: #E1E2DE;
     padding: 2px 25px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 30px;
 }
 
 .img {
@@ -102,8 +106,26 @@ p {
     font-family: 'Roboto', sans-serif;
 }
 
+.number {
+    background-color: #E1E2DE;
+    color: #5A5A59;
+    border-radius: 50%;
+    width: 23px;
+    height: 23px;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+}
+
 .rightCol {
     width: 300px;
+}
+
+.requestLine {
+    display: flex;
+    justify-content: space-evenly;
+    margin 3px 0px;
+    margin-bottom: 5px;
 }
 
 .school {
@@ -119,15 +141,35 @@ p {
 .years {
     color: #646464;
     margin-bottom: 2px;
+} 
+
+#accept {
+    width: 20px;
 }
 
 #col2 {
-    padding-right: 20px;
+    padding-right: 45px;
     padding-left: 15px;
 }
 
 #connectionRequestCard, #connectionCard {
     width: 200px;
+}
+
+#connectionReqInfoPane {
+    padding: 5px;
+    padding-left: 15px;
+}
+
+#conReqHeadline {
+    font-size: .90rem;
+    text-align: end;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+#deny {
+    width: 20px;
 }
 
 #eduInfoPane {
@@ -159,9 +201,11 @@ p {
 }
 
 #mainContainer {
-    width: 70%;
+    width: 960px;
+    height: 700px;
     display: flex;
-    padding: 35px 200px 35px 150px;
+    margin: 0px auto;
+
 }
 
 #name{
@@ -175,4 +219,8 @@ p {
     left: 40px;
     border: solid 2px black;
     border-radius: 50%;
+}
+
+#reqImage {
+    width: 20px;
 }
