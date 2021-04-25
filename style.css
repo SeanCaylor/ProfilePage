@@ -61,10 +61,6 @@ p {
     margin-right: 0px;
 }
 
-.conName {
-    flex 32;
-}
-
 .headline {
     background-color: #5A5A59;
     color: #E1E2DE;
@@ -206,10 +202,7 @@ p {
     width: 375px;
 }
 
-#editProfile {
-    color: #2B78E4;
-    font-family: 'EB Garamond', serif;
-}
+
 
 #friendImage {
     width: 40px;
@@ -219,7 +212,7 @@ p {
     width: 8px;
 }
 
-#infoPane {
+.infoPane {
     padding: 15px;
     padding-left: 25px;
 }
@@ -257,6 +250,7 @@ p {
 #reqImage {
     width: 20px;
 }
+
 
 #viewCon {
     color: #1e4e91;

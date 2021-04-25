@@ -1,9 +1,9 @@
 function photoChango(){
     var image = document.getElementById("profilePic");
-    if (image.getAttribute('src') == "ProfilePic.png"){
-        image.src = "JBFH.png"
+    if (image.getAttribute('src') == "img/ProfilePic.png"){
+        image.src = "img/JBFH.png"
     }
     else {
-        image.src = "ProfilePic.png"
+        image.src = "img/ProfilePic.png"
     }
 }
