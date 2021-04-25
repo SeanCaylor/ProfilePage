@@ -26,10 +26,11 @@ p {
 
 .conLine {
     display: flex;
-    justify-content: center;
+    justify-content: left;
     margin: 3px 0px;
     margin-bottom: 5px;
     align-items: center;
+    padding-left: 10%;
 }
 
 .conInfoPane {
@@ -89,6 +90,7 @@ p {
     position: fixed;
     top: 0;
     right: 0;
+    z-index: 10;
 }
 
 .navBtn {
@@ -153,6 +155,7 @@ background-color: #6b1111;
     justify-content: space-evenly;
     margin: 3px 0px;
     margin-bottom: 5px;
+    padding-left: 10%;
 }
 
 .title {
